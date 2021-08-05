@@ -1,0 +1,165 @@
+
+div.banner {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: springgreen;
+    position: relative;
+}
+
+
+.banner-left {
+    float: left;
+    width: 70px;
+    height: auto;
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+.banner-right {
+    float: right;
+    width: 70px;
+    height: auto;
+    padding-right: 25%;
+    padding-top: 10px;
+}
+
+#sub-left {
+    float: left;
+    width: 20px;
+    height: auto;
+    /* padding-left: 92%; */
+    padding-bottom: 0px;
+    margin-right: 0;
+}
+
+/* .sub {
+    display: inline-block;
+} */
+
+h1.bannertext {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#subtext {
+    margin: 0;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 1%;
+}
+
+ul.unbulleted {
+    list-style: none;
+}
+
+table {
+    padding-right: 100px;
+    padding-top: 40px;
+
+}
+
+#photos {
+    text-align: center;
+}
+
+#photos img {
+    display: inline-block;
+    max-height: 200px;
+    padding: 20px;
+}
+
+.body div{
+    display: inline-block;
+}
+
+.chapters {
+    width: 30%;
+    padding-right: 5%;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+.chapters li {
+    margin: 30px;
+    border:1px solid rgb(241, 185, 79);
+    background-color: rgb(241, 185, 79);
+    border-radius:20px;
+}
+
+.chapters #palm {
+    filter: grayscale(100%);
+}
+
+.chapters img {
+    float: left;
+    width: 30px;
+    height: auto;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-left: 5%;
+}
+
+.mid {
+    width: 50%;
+    padding-right: 3%;
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.us {
+    width: 80%;
+    text-align: left;
+    border-radius:20px;
+    padding: 20px;
+    margin-top: 0;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #f7b945 12%, transparent 12.5%, transparent 87%, #f7b945 87.5%, #f7b945), linear-gradient(150deg, #f7b945 12%, transparent 12.5%, transparent 87%, #f7b945 87.5%, #f7b945), linear-gradient(30deg, #f7b945 12%, transparent 12.5%, transparent 87%, #f7b945 87.5%, #f7b945), linear-gradient(150deg, #f7b945 12%, transparent 12.5%, transparent 87%, #f7b945 87.5%, #f7b945), linear-gradient(60deg, #f7b94577 25%, transparent 25.5%, transparent 75%, #f7b94577 75%, #f7b94577), linear-gradient(60deg, #f7b94577 25%, transparent 25.5%, transparent 75%, #f5c16277 75%, #f5c56d77);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+
+.us p {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.verse img {
+    float: left;
+    width: 60px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.verse {
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    border: rgb(241, 185, 79);
+    border-width: 15px;
+    border-style: double;
+}
+
+.verse a {
+    color: rgb(6, 204, 118);
+}
+
+.timeline {
+    margin-top: 20px;
+    width: 10%;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#GFM {
+    text-align: center;
+}
+
+.timeline img {
+    text-align: center;
+    width: 40px;
+    height: auto;
+}
+
