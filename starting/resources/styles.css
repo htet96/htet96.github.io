@@ -1,0 +1,56 @@
+html {
+    background-image: url(./header.jpg);
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 10;
+    width: 100%;
+    background-image: url(./header\ bg.png);
+}
+
+.styles, .fonts, .colors, .blocks{
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(78, 255, 172);
+    position: relative;
+    top: 100px;
+}
+
+div h2, h3 {
+    padding-left: 10px;
+}
+
+.blocks {
+    text-align: center;
+}
+
+.blocks h2{
+    text-align: left;
+}
+
+.blocks div {
+    display: inline-block;
+    /* text-align: center; */
+    margin: 30px 30px;
+    /* position: relative; */
+    width: 960px;
+    height: 540px
+}
+
+video {
+    width: 960px;
+    height: 540px;
+}
+
+.blocks div{
+    border: none;
+}
+
+.blocks div img {
+    width: 540px;
+    height: 540px
+}
